@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +47,9 @@ img{
 .header-menu{
     display: flex;
     flex-wrap: wrap;
-    gap:40px
+    gap:40px;
+    font-family: "Poppins";
+    font-weight: 400;
 }
 
 .header-menu a{
@@ -132,6 +137,8 @@ img{
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;      /*72 / 64 = 1.125*/
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .introducao p{
@@ -139,6 +146,8 @@ img{
     font-size: 24px;
     line-height: 1.5;      /*72 / 64 = 1.5*/
     color: #b2b2b2;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .introducao h1 span{
@@ -155,7 +164,8 @@ img{
     color: #332200;
     font-size: 18px;
     line-height: 1.33;
-    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {
