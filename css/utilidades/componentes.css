@@ -20,10 +20,20 @@
     font-family: "Poppins";
     font-weight: 600; */
     font: 600 1.125rem/1.35 "Poppins", sans-serif; /*abreviação para os valores comentados acima*/
+    max-width: max-content; /* o tamanho máximo é o do seu conteudo*/
 }
 
 .botao:hover{
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario{ /*utiliza o conteudo das duas classes clase .botao e .secundario*/
+    background: var(--cor-10);
+    color: var(--cor-2)
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
 
 @media (max-width: 600px) {
